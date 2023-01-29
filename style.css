@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  margin: 0px;
+  color: #323232;
+}
+
+#h1{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 4px;
+}
+
+.icon-bar {
+  width: 51%;
+  background-color: #b8b8b8;
+  overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin: auto;
+}
+
+.icon-bar a {
+  width: 20%;
+  float: left;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.5s linear;
+
+}
+
+.icon-bar a:hover {
+  background-color: rgb(63, 63, 63);
+}
+
+.lorem{
+  margin: 10px 150px;
+  text-align: start;
+  line-height: 1;
+ }
+
+ p::first-letter{
+  color: black;
+  font-size: 50px;
+ }
+
+ .container:hover .image{
+  opacity: 0.5;
+
+ }
+.image{
+  width: 100%;
+  padding: 0px 0px 50px 0px;
+  transition: all 0.3s linear;
+}
+
